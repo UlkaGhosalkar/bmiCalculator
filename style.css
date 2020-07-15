@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(init.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.title h1 {
+    color: #f30c0cef;
+    text-transform: capitalize;
+    font-size: 50px;
+    
+}
+
+.name h2,
+.height h2,
+.weight h2 {
+    color: #f30c0cef;
+    font-size: 40px;
+}
+
+.name input {
+    border: none;
+    outline: none;
+    background: #5d5e64;
+    color: #f30c0cef;
+    font-size: 30px;
+    text-align: center;
+}
+
+.height input {
+    border: none;
+    outline: none;
+    background: #5d5e64;
+    color: #f30c0cef;
+    font-size: 30px;
+    text-align: center;
+}
+
+.weight input {
+    border: none;
+    outline: none;
+    background: #5d5e64;
+    color: #f30c0cef;
+    font-size: 30px;
+    text-align: center;
+    /* width: 337px; */
+}
+
+.submit button {
+    color: #df4d13;
+    background: #ea907a;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.submit button:hover {
+    background: #4f8a8b;
+    color: #ea907a;
+    border: 1px solid #f30c0cef;
+}
+
+.submit button:focus {
+    outline: none;
+}
+
+.result h1 {
+    color: #f4f6ff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+#result {
+    color: #f3b852;
+    font-size: 60px;
+}
+
+#note {
+    color: #f3b852;
+    font-size: 60px;
+}
